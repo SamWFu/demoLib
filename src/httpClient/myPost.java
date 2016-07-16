@@ -30,17 +30,17 @@ public class myPost {
             parameters.put("busId", "85");
             parameters.put("fromDate", "06/27/2016");
             parameters.put("fromTime", "00:00");
-            parameters.put("toDate", "07/11/2016");
+            parameters.put("toDate", "06/27/2016");
 //            parameters.put("toDate", "07/01/2016");
             parameters.put("toTime", "23:00");
 
-            String result = sendGet("",
+            String result = sendGet("http://localhost:8080/bus/track",
                     parameters);
 //        }
 
 
 
-//           System.out.println(result);
+           System.out.println(result);
 
     }
 
